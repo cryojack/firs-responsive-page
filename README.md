@@ -1,4 +1,4 @@
-# firs-responsive-page
+# first-responsive-page
 My first responsive page using media queries. The site is only responsive on iPad Min and Air's vertical and horizontal screens.
 
 ## Technologies used
