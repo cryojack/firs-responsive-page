@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/f5e8cb0b4c.js" crossorigin="anonymous"></script>
+    <title>My first responsive site!</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <span class="span-1">The </span><span class="span-2">Curious </span><span class="span-3">Developer</span>
+                </h1>
+            </div>
+            <div class="navbar">
+                <div class="nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="hamburger-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="home">
+        <div class="banner">
+            <div class="center-heading">
+                <h1>A developer with a <span class="span-1">sound</span> and <span class="span-2">curious</span> mind!</h1>
+            </div>
+            <div class="center-caption">
+                <h4>And love building things!</h4>
+            </div>
+            <div class="center-button">
+                <button type="button">Know more!</button>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <div class="left-intro">
+                <div class="intro-wrapper">
+                    <h1>
+                        About me
+                    </h1>
+                    <h3>
+                        Hi, my name is <span style="font-weight: 600;">Mridul</span>. I am a <span style="color: rgb(120, 120, 211); font-weight: 600;">web developer</span> who specializes in front and back-end technologies! I love building new things and exploring new ideas. While I am still a beginner and don't know a lot of things, I still strive to become the best at what I do. Come, take a look!
+                    </h3>
+                    <button class="btn-border">
+                        Learn more
+                    </button>
+                </div>
+            </div>
+            <div class="mid-border">
+            </div>
+            <div class="side-image">
+                <div class="img-wrapper">
+                    <img src="images/my-intro2.jpg" alt="intro image">
+                </div>
+            </div>
+        </div>
+
+        <div class="projects" id="projects">
+            <div class="project-wrapper">
+                <div class="heading">
+                    <h1>My Projects</h1>
+                </div>
+                <div class="container">
+
+                    <div class="project-box">
+                        <div class="project-heading">
+                            <h3>Responsive Portfolio page</h3>
+                        </div>
+                        <div class="project-image">
+                            <img src="images/dev-image2.jpg" alt="">
+                        </div>
+                        <div class="project-details">
+                            <p>My very own responsive page!</p>
+                        </div>
+                        <div class="project-bttn">
+                            <button class="btn-border">Live Demo</button>
+                        </div>
+                    </div>
+
+                    <div class="project-box">
+                        <div class="project-heading">
+                            <h3>Simple Registration App</h3>
+                        </div>
+                        <div class="project-image">
+                            <img src="images/registration-page.jpg" alt="">
+                        </div>
+                        <div class="project-details">
+                            <p>A registration and login app that functions like a social media website.</p>
+                        </div>
+                        <div class="project-bttn">
+                            <button class="btn-border">Live Demo</button>
+                        </div>
+                    </div>
+
+                    <div class="project-box">
+                        <div class="project-heading">
+                            <h3>My Blog</h3>
+                        </div>
+                        <div class="project-image">
+                            <img src="images/blog.jpg" alt="">
+                        </div>
+                        <div class="project-details">
+                            <p>An ongoing blog project utilizing Angular as the front-end!</p>
+                        </div>
+                        <div class="project-bttn">
+                            <button class="btn-border">Live Demo</button>
+                        </div>
+                    </div>
+
+                    <div class="project-box">
+                        <div class="project-heading">
+                            <h3>Vehicle Management App</h3>
+                        </div>
+                        <div class="project-image">
+                            <img src="images/vehicle-project.png" alt="">
+                        </div>
+                        <div class="project-details">
+                            <p>A simple vehicle management app which allows users to add a vehicle and add, track and delete services and jobs</p>
+                        </div>
+                        <div class="project-bttn">
+                            <button class="btn-border">Live Demo</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project-more">
+                    <button class="btn-border">See more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="contact-wrapper">
+                <div class="left-contact">
+                    <h1>Contact me</h1>
+                    <h3>
+                        For any queries regarding my service, please contact me! I will be sure to respond as soon as possible
+                    </h3>
+                </div>
+                <div class="right-form">
+                    <form>
+                        <div class="form-box">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Enter your name...">
+                        </div>
+                        <div class="form-box">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" placeholder="Enter your email...">
+                        </div>
+                        <div class="form-box">
+                            <label for="message">Message</label>
+                            <textarea name="message" cols="30" rows="5" placeholder="Enter your message..."></textarea>
+                        </div>
+                        <div class="form-box">
+                            <button type="submit" class="btn-border">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-wrapper">
+                <div class="media">
+                    <a href="https://github.com/cryojack"><i class="fab fa-github icon"></i></a>
+                    <a href="https://codepen.io/curiousdeveloper1991"><i class="fab fa-codepen icon"></i></a>
+                    <a href="https://facebook.com"><i class="fab fa-facebook icon"></i></i></a>
+                </div>
+                <div class="bottom-caption">
+                    <h4>
+                        Created by Mridul N. All rights reserved <i class="far fa-copyright icon"></i>
+                    </h4>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
